@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+a.active{
+    background-color: #5356ff;
+    font-weight: 700;
+}
+nav ul a{
+    padding: 10px;
+    border-radius: 5px;
+}
+aside{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 70px;
+    background-color: #2c3034;
+    color: #fff;
+}
+aside a{
+    width: 100%;
+    padding: 10px;
+}
+main{
+    width: calc(100% - 200px);
+    margin-left: auto;
+    padding-top: 70px;
+}
+article img{
+    height: 200px;
+    object-fit: cover;
+}
